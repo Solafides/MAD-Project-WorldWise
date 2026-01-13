@@ -16,6 +16,33 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btn_mode_general"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="General"
+            android:backgroundTint="@color/cyan_blue"
+            android:textColor="@color/white"
+            android:layout_marginEnd="4dp"/>
+
+        <Button
+            android:id="@+id/btn_mode_timed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Timed"
+            android:backgroundTint="@color/grey_option"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
     <ListView
         android:id="@+id/lv_leaderboard"
         android:layout_width="match_parent"
@@ -27,8 +54,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#363A43"
+        android:backgroundTint="@color/primary_blue"
         android:text="Back"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
 </LinearLayout>

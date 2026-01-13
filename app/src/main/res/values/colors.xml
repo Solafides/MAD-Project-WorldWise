@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary_blue">#3B82F6</color>
+    <color name="cyan_blue">#33CCFF</color>
+    <color name="light_pink_bg">#FFF5F5</color>
+    <color name="grey_option">#D9D9D9</color>
+    <color name="dark_text">#1A1A1A</color>
+    <color name="cyan_option">#33CCFF</color>
+    <color name="green_correct">#10B981</color>
+    <color name="red_wrong">#EF5350</color>
+    <color name="colorAccent">#F59E0B</color>
+    <color name="colorPrimaryDark">#1A1E29</color>
+    
+    <!-- New Dashboard Colors -->
+    <color name="dash_bg">#1A1E29</color>
+    <color name="dash_card_bg">#252A36</color>
+    <color name="dash_orange">#D97706</color>
+    <color name="dash_blue_accent">#1E40AF</color>
+    <color name="dash_text_gray">#9CA3AF</color>
+    <color name="dash_blue_btn">#3B82F6</color>
 </resources>

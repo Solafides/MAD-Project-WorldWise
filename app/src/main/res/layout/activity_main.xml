@@ -10,10 +10,37 @@
     android:padding="24dp"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#D32F2F"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary_blue"
+            android:text="Leaderboard"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/iv_image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="Globe Image"
         android:src="@mipmap/ic_launcher" />
@@ -23,15 +50,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Capital City Quiz"
-        android:textColor="@color/primary_blue"
+        android:textColor="@color/cyan_blue"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Welcome!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_prompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Test your knowledge of world capitals!"
+        android:text="Choose your game mode:"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -40,15 +78,38 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <Button
-        android:id="@+id/btn_start"
+    <!-- Game Mode Buttons -->
+    <LinearLayout
+        android:id="@+id/ll_new_game_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:backgroundTint="@color/primary_blue"
-        android:text="START QUIZ"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp">
+
+        <Button
+            android:id="@+id/btn_general_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/cyan_blue"
+            android:text="GENERAL QUIZ"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_timed_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="TIMED CHALLENGE"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </LinearLayout>
