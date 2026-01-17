@@ -10,7 +10,7 @@ WorldWise is a mobile quiz app designed to help users learn and test their knowl
 - Tebarek Zewude, Fenan Gadisa, Tseganesh Kebede – Android Developer
 
 ## 🎨 Design & Planning Links  
-- [Figma Board](https://www.figma.com/design/tK4ur0eX1f1lzEwUW1f8oK/Untitled?node-id=8-24&t=hA1xfAa43vDlovrq-1)  
+- [Figma Board](https://www.figma.com/design/1UDQPTRKJCGlRITYQ8Vlfs/Untitled?node-id=0-1&t=ki2xoATR5pBml6fh-1)  
 - [Jira Board](https://fenanged.atlassian.net/jira/software/projects/MP/boards/34?atlOrigin=eyJpIjoiMjkxNDhlMGQ5YzBiNDQ5YmEzYzFiZDU3ODVjNGJkMzMiLCJwIjoiaiJ9)
 
 ## 📄 Documentation  
