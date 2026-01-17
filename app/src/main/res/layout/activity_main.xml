@@ -43,7 +43,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="Globe Image"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/world_map_background" />
 
     <TextView
         android:layout_width="wrap_content"
