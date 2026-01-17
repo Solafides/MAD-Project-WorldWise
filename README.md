@@ -5,9 +5,9 @@
 WorldWise is a mobile quiz app designed to help users learn and test their knowledge of world capitals through engaging, multiple-choice questions. Whether you're a student, traveler, or trivia enthusiast, WorldWise makes geography fun and accessible. Players are presented with a country and must select the correct capital city from four options. The app tracks progress, encourages learning through repetition, and offers a clean, intuitive interface.
 
 ## 👥 Team Members  
-- Solomon Timiso – Project Lead  
+- Fenan Gadisa – Project Lead  
 - Lidiya Simeneh – UI/UX Lead  
-- Tebarek Zewude, Fenan Gadisa, Tseganesh Kebede – Android Developer
+- Tebarek Zewude,Solomon Timiso, Tseganesh Kebede – Android Developer
 
 ## 🎨 Design & Planning Links  
 - [Figma Board](https://www.figma.com/design/1UDQPTRKJCGlRITYQ8Vlfs/Untitled?node-id=0-1&t=ki2xoATR5pBml6fh-1)  
